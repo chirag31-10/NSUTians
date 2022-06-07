@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NSUTians</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link  rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo_transparent.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="online_prog.html">ONLINE PROGRAMS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()" ></i>
+        </nav>
+      <h1>Our Certificate & Online Programs</h1>
+</section>
+
+<!--- blog page content--->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="Images/certificate.jpg" >
+            <h2>Our Certificate & Online Programs</h2>
+            <p>If the sight of blank papers and sketch pens have always excited you and you spend most of your free time drawing and doodling, then it's time to take your hobby to another level and learn graphic designing online. If you have a creative bend of mind especially when it comes to express ideas through sketching and designing, try your hands at Photoshop and other popular graphic designing software and learn to build creative websites and much more. </p>
+            <br>
+            <p>By learning data analysis, you can help companies take more informed business decisions through analyzing transaction data and other forms of data that otherwise couldn't be tracked by conventional business intelligence programs. There are many organizations and online business schools that offer Big Data and and business analytics courses where you'll be taught about creating, testing and analyzing data.</p>
+            <br>
+            <p> Online MBA programs are very popular these days especially for working professionals who couldn't afford to pursue full time MBA. Online MBA programs are offered by various prestigious institutes. They have identical syllabus like that of a full time MBA programs, the only difference being that online MBA course are shorter and have flexible timings for the ease of working professionals.</p>
+            <br>
+            <p>Programming is a vital part of setting up a website. There are various programming language to learn from. Programmers basically code algorithms in programming languages to run a program successfully. If you are interesting in solving complex algorithms, learn programming online and help solving complex codes on back-end to smoothly run programs on front-end of a website.</p>
+         
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+              <h3>Post categories</h3>
+              <div>
+                  <span>Business Analytics</span>
+                  <span>21</span>
+              </div>
+              <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>33</span>
+            </div> 
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div> 
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--- Footer--->
+
+<section class="footer">
+    <h4>Alumini</h4>
+    <p>
+        The NSUT alumni network - with over 5000 graduates - is an expansive web of people that provide<br> you with alumni networking opportunity and career advice.<br> From Australia to North America, NSUT graduates can be found in every major corporation and research<br> house across the globe.
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Designed by Chirag Malik <i class="fa fa-heart"></i></p>
+</section>
+
+
+
+
+
+<!-------------------JavaScript for Toggle Menu-------------------->
+
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+    
+     function showMenu(){
+         navLinks.style.right= "0";
+     }
+     function hideMenu(){
+         navLinks.style.right= "-200px";
+     }
+
+</script>
+
+
+    
+</body>
+</html>

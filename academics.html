@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NSUTians</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link  rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo_transparent.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="online_prog.html">ONLINE PROGRAMS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()" ></i>
+        </nav>
+      <h1>Academics</h1>
+</section>
+
+<!---------Course--------->
+
+<section class="course">
+    <h1>Courses we Offer</h1>
+    <p>The courses available are:</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Undergraduate</h3>
+            <p>NSUT Delhi has been admitting students to its undergraduate programmes on the basis of marks obtained by them in the Joint Entrance Examination (JEE) - MAIN, which is been conducted by NTA every year. The courses offered are: B.Tech. / B.Arch. Admissions through JAC Delhi, 
+                B.Tech. Admissions through DASA,
+                Bachelor of Design in Product Design and Bachelor of Design in Fashion Technology Admissions,
+                BBA Admissions. 
+                </p>
+        </div>
+        <div class="course-col">
+            <h3>Postgraduate</h3>
+            <p>NSUT Delhi has admitted students to its postgraduate programmes on the basis of of GATE Score only amongst the candidates registered online for the admission, through screening committee and selection committee. The final selection of the candidates for Sponsored (Full-Time) and Part-Time course shall be made by the Selection Committee on the basis of their performance at the qualifying examination, written test and interview.. The intake of students to these postgraduate programmes is 23 each.
+                 </p>
+        </div>
+        <div class="course-col">
+            <h3>Ph.d</h3>
+            <p>The University offers Doctorate of Philosophy (Ph.D.) degree programmes in following fields:
+                Electronics and Communication Engineering, 
+                Computer Engineering, 
+                Instrumentation and Control Engineering, 
+                Manufacturing Process and Automation Engineering, 
+                Information Technology, 
+                Bio-Technology, 
+                Management Studies, 
+                Humanities and Social Sciences, 
+                Mathematics, 
+                Physics, 
+                Chemistry.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+<!-------Facilities------>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>The Faculty of Classics offers a range of facilities to make your visit to the Museum of Classical Archaeology more comfortable.</p>
+      
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png">
+            <h3>World Class Library</h3>
+            <p>NSUT Central Library is well equipped with a book bank that supports the financially weak students and those belonging to the SC/ST category to whom books are lent for the whole academic semester. After a duration of 2 weeks from the start of the semester, the book bank is opened for the general category students as well.
+                
+                The collection of books is categorized in five sections:
+                
+                * Book bank cum text book section
+                
+                * General section
+                
+                * Reference section
+                
+                * Periodical section
+                
+                * Audio Visual cum Digital Library section</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>NSUT offers state of art facilities in the domain of physical education, providing the following facilities: 
+
+                Gymnasium with latest fitness equipments, 
+                Two basketball courts, 
+                Two volleyball courts, 
+                Cricket ground, 
+                Football ground with a seating arrangement of approximately 5000, 
+                Two tennis courts, 
+                Running Tacks (400m). 
+                The college and the students of NSUT have been proactive in hosting and participating in many sports events, including Delhi University tournaments, and have been competetive on an All-India-Inter University level. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>Healthy Food</h3>
+            <p>In addition to the regular mess facilities in the hostels, the NSUT campus boasts of four affordable canteens spread throughout the campus. Two of these are in close proximity to the boys’ hostels and provide an easily accessible & inexpensive alternative to mess food. All canteens provide delicious vegetarian and non-vegetarian food at reasonable prices.
+                One of these canteens has a spacious & spotlessly maintained dining hall that provides comfortable seating and ensures a wholesome & nutritious food solution.</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!--- Footer--->
+
+<section class="footer">
+    <h4>Our Mission: </h4>
+    <p>
+        To promote academic growth by offering state-of-the-art Undergraduate. Postgraduate and Doctoral <br>programmes and to impart emerging and new knowledge in Research & Development.<br> To identify the thrust area of specialization in education based on perception of Regional and National <br>as well as global needs.
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Designed by Chirag Malik<i class="fa fa-heart"></i></p>
+</section>
+
+
+
+
+
+<!-------------------JavaScript for Toggle Menu-------------------->
+
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+    
+     function showMenu(){
+         navLinks.style.right= "0";
+     }
+     function hideMenu(){
+         navLinks.style.right= "-200px";
+     }
+
+</script>
+
+
+    
+</body>
+</html>
